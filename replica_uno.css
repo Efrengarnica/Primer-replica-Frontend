@@ -1,0 +1,104 @@
+body {
+    color: white;
+    font-family:"DM Sans", sans-serif;
+    background: rgba(47, 24, 147, 1) url("./assets/Fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1,h2,p {
+    text-align: center;
+}
+
+p {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.29px;
+    line-height: 31.25px;
+    margin-bottom: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    width: 469px;
+    height: 26px;
+    margin-top: 81px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contenido {
+    flex-direction: column;
+    margin-top: 90px;
+    width: 736px;
+}
+
+.botones {
+    width: 91px;
+    height: 11px;
+}
+
+.boton {
+    width: 230px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #482BE7;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    margin-top: 20px;
+}
+
+.boton:hover {
+    background-color: white;
+    color: #482BE7;
+}
+
+.is-text-small {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.is-text-medium {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.contenedor-icono {
+    width: 16px;
+    height: 21px;
+    display: flex;
+    align-items:center;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
