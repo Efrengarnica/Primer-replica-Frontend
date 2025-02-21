@@ -85,6 +85,10 @@ h2 {
     margin-bottom: 0px;
 }
 
+.is-text-small:hover {
+    color: rgba(0, 0, 0, 0.3);
+}
+
 .is-text-medium {
     font-size: 22px;
     line-height: 32px;
@@ -98,7 +102,12 @@ h2 {
     align-items:center;
 }
 
-.icon {
+svg {
     width: 16px;
-    height: 16px;
+    height: 21px;
+    fill: rgba(255, 255, 255, 1);
+}
+
+svg:hover {
+    fill: rgba(255, 255, 255, 0.3);
 }
